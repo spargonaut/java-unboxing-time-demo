@@ -1,8 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-
 sourceCompatibility = 1.8
+mainClassName = 'org.spargonaut.firestarter.Application'
 
 repositories {
     mavenCentral()
