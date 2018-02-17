@@ -14,8 +14,7 @@ public class ApplicationTest {
 
     @Test
     public void shouldPrintHelloWorldToStandardOut() {
-        Application application = new Application();
-        application.main(null);
+        Application.main(null);
         assertThat(capture.toString(), is("Hello World!\n"));
     }
 }
